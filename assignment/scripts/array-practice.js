@@ -127,6 +127,10 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 
 // 5.a (STRETCH) TODO: Replace the second gem with 'Tourmaline'.
 //      Remember to console.log the updated array.
+let secondGem = 'Tourmaline';
+gems[1] = secondGem
+console.log('The updated list of gems is', gems);
+
 
 
 
