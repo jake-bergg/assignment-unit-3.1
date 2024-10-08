@@ -131,12 +131,10 @@ let secondGem = 'Tourmaline';
 gems[1] = secondGem
 console.log('The updated list of gems is', gems);
 
-
-
-
-
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
+gems.sort().reverse();
+console.log('The list of gems in reverse alpabetical order is:', gems);
 
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
